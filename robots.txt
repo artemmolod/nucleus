@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /sql
+Disallow: /upload
+Sitemap: http://web-nucleus.com/cache/map.xml
+Host: web-nucleus.com

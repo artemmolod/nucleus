@@ -1,0 +1,229 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+     height:100%;
+}
+header, nav, section, article, aside, footer {
+     display: block;
+}
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    background-color: #F1F2F4;
+    overflow-y:auto;
+    overflow-x: hidden;
+    color:#000;
+    font-size:18px;
+    height: 100%;
+}
+input[type="text"],
+input[type="submit"],
+input[type="button"],
+input[type="search"],
+input[type="password"],
+input[type~="text"],
+input[type~="search"],
+input[type~="password"],
+input[type~="email"],
+input.text,input.search, textarea, input.file {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+a {
+    color: #04a7a3;
+    text-decoration: none;
+}
+.fll {
+    float: left;
+}
+.flr {
+    float: right;
+}
+.cnr {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+.bl {
+    display: block;
+}
+.clear {
+    clear: both;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #04a7a3;
+}
+.header-content {
+    max-width: 1010px;
+    margin: 0 auto;
+    height: 48px;
+    background: #04a7a3;
+    color: #fff;
+}
+.header-icon-menu {
+    float: left;
+    width: 22px;
+    padding: 13px 13px 13px;
+    display: none;
+}
+.header-icon {
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-image: url(/tpl/img/icon/ic_menu_white_24dp_1x.png);
+}
+.header-icon-close {
+    background-image: url(/tpl/img/icon/ic_close_white_24dp_1x.png);
+}
+.header-logo-content {
+    float: left;
+    width: 31%;
+}
+.header-logo {
+    position: relative;
+}
+.header-logo-a {
+    color: #fff;
+    display: block;
+    font-size: 23px;
+    vertical-align: top;
+    padding: 9px 20px 11px 22px;
+}
+.header-right-panel {
+    float: left;
+    width: 31%;
+}
+.header-logo-content:hover,
+.header-right-panel:hover,
+.header-user-right-panel:hover {
+    background-color: #00a0b2;
+}
+.header-right-panel-span {
+    display: block;
+    font-size: 19px;
+    cursor: pointer;
+    padding: 12px 20px 11px 22px;
+}
+.header-user-right-panel {
+    float: left;
+    width: 38%;
+}
+.header-user-right {
+    float: right;
+    padding: 9px 17px 10px 22px;
+}
+.dev-main {
+    position: relative;
+    margin: 0px auto;
+    max-width: 1010px;
+}
+.dev-pad {
+    margin-top: 70px;
+}
+.dev-status {
+    background-color: #fff;
+    padding: 15px 20px;
+}
+.dev-status-title {
+    font-size: 20px;
+}
+.dev-status-method {
+    padding-top: 10px;
+}
+.dev-status-method-l {}
+.dev-l {
+    display: inline-block;
+}
+.dev-l div {
+    padding: 10px;
+}
+.dev-status-method-name {
+    width: 30%;
+}
+.dev-status-method-s {
+    width: 40%;
+}
+.dev-status-method-t {
+    width: 29%;
+}
+.dev-header-l {
+    background-color: #F1F2F4;
+}
+.dev-header-l div {
+    padding: 10px;
+    font-weight: bold;
+    color: #04a7a3;
+}
+.dev-m {
+    margin-top: 20px;
+}
+.dev-left-menu {
+    width: 25%;
+    background-color: #fff;
+    float: left;
+} 
+.dev-right-block {
+    width: 74%;
+    float: right;
+    margin-left: 5px;
+}
+.dev-left-in {
+    display: inline-block;
+}
+.dev-left-menu-bl {
+    padding: 15px 20px;
+}
+.dev-menu-a {
+    display: block;
+    padding: 5px;
+}
+.dev-menu-a:hover {
+    background-color: #F1F2F4;
+}
+.dev-right-bl {
+    padding: 15px 20px;
+    background-color: #fff;
+}
+.dev-right-bl-title {
+    font-size: 20px;
+}
+.dev-right-bl-content {
+    padding: 15px 0;
+    line-height: 150%;
+}
+.dev-example {
+    padding: 15px;
+    border-left: 4px solid #04a7a3;
+    background-color: #F1F2F4;
+    margin: 7px 0 8px;
+    font-size: 16.4px;
+}
+.ex-span {
+    color: #555;
+    font-size: 15px;
+}
+.dev-code-json span.dev-code-json-response {
+    padding-left: 12px;
+}
+.dev-code-json span.dev-code-json-response-j {
+    padding-left: 65px;
+}
+
+.dev-menu-fixed {
+    position: fixed;
+    top: 64px;
+    width: 252px;
+}
+.dev-method-l {
+    width: 69%;
+}
+.dev-method-param {
+    padding-left: 10px;
+    font-size: 15px;
+    color: #555;
+}

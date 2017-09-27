@@ -1,0 +1,1 @@
+<div class="comment-main-block-content-no">К сожалению, комментариев пока нет.</div>

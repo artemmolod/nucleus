@@ -1,0 +1,30 @@
+.main-button,
+.button, 
+.btn,
+.profile-btn,
+.profile-cover,
+.vote-true,
+.comment-main-block-header,
+.box-access-title,
+.report-block-header,
+.header-content,
+.page-header,
+.block-user,
+.profile-name-block,
+.competition-date,
+.competition-lenta-place-n,
+.fb-btn-fixed {
+    background-color: #04a7a3 !important;
+}
+.competition-lenta-line {
+    border-top: 1px solid #04a7a3;
+}
+.link-menu-a {
+    color: #04a7a3 !important;
+}
+.header-logo-content:hover,
+.header-right-panel:hover,
+.header-user-right-panel:hover {
+    opacity: 0.8;
+    background-color: #04a7a3 !important;
+}

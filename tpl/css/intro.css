@@ -1,0 +1,145 @@
+.intro-main {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+.intro-container {
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 740px;
+    width: 740px;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.intro-control-container {
+    margin: 25px auto;
+    padding-left: 3px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.intro-control {
+    display: inline-block;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.intro-control:before {
+    content: "";
+    display: block;
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+.control-active:before {
+    opacity: 1;
+}
+.intro-step-container {
+    overflow: hidden;
+    width: calc(740px * 8);
+    position: relative;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.intro-step {
+    float: left;
+    width: 740px;
+    position: relative;
+}
+.step-img-p {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: auto;
+}
+.step-image {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background-image: url(/tpl/img/intro_confetti.png);
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.step-image-lenta {
+    background-image: url(/tpl/img/intro/lenta.png) !important;
+    background-repeat: no-repeat;
+}
+.step-image-reply {
+    background-image: url(/tpl/img/intro/reply.png) !important;
+    background-repeat: no-repeat;
+    background-size: 106%;
+}
+.step-image-photo {
+    background-image: url(/tpl/img/intro/photo.png) !important;
+    background-repeat: no-repeat;
+}
+.step-image-rating {
+    background-image: url(/tpl/img/intro/rating.png);
+    background-repeat: no-repeat;
+}
+.step-image-profile {
+    background-image: url(/tpl/img/intro/profile.png);
+    background-repeat: no-repeat;
+}
+.step-image-con {
+    background-image: url(/tpl/img/intro/con_.png);
+    background-repeat: no-repeat;
+}
+.step-image-finish {
+    background-image: url(/tpl/img/intro/_MG_4504-Edit.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.step-title {
+    text-align: center;
+}
+.step-title div.st-header {
+    font-size: 23px;
+}
+.step-title div.st-title {
+    color: #5c5c5c;
+    padding: 18px;
+    font-size: 17px;
+    line-height: 150%;
+    position: relative;
+    margin: 0 auto;
+    max-width: 580px;
+}
+.st-btn {
+    padding: 20px;
+}
+.st-button {
+    padding: 7px 16px 8px;
+    margin: 0;
+    display: inline-block;
+    zoom: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+    vertical-align: top;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    background-color: #04a7a3;
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.st-button:hover {
+    opacity: 0.8;
+}
+.st-button:active {
+    padding: 8px 16px 7px;
+}

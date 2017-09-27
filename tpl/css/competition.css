@@ -1,0 +1,63 @@
+.competition-header-w {
+    max-width: 100%;
+}
+.fix-w {
+	max-width: 1010px;
+	position: relative;
+	margin: 0 auto;
+}
+.pad-fix {
+	margin-top: 40px;
+}
+.competition-header {
+	background-image: url(/tpl/img/back-about.png);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 400px;
+	text-align: center;
+	position: relative;
+}
+.competition-header-text {
+    padding: 120px;
+}
+.competition-header-text h2 {
+    font-size: 80px;
+    color: #fff;
+}
+.competition-main {
+	position: relative;
+	margin: 0px auto;
+	width: 1010px;
+	max-width: 100%;
+}
+.competition-article {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #fff;
+}
+.text-r {
+	text-align: right;
+}
+.competition-title {}
+.competition-descr {
+	padding-top: 10px;
+	line-height: 150%;
+}
+
+@media all and (max-width: 1000px) {
+	.competition-header {
+		background-size: inherit;
+	}
+}
+@media all and (max-width: 600px) {
+	.competition-header {
+		background-size: inherit;
+	}
+	.competition-header-text {
+		padding: 135px 100px;
+	}
+	.competition-header-text h2 {
+    	font-size: 30px;
+    	color: #fff;
+    }
+}

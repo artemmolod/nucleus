@@ -1,0 +1,209 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-user-select: none;
+    user-select: none;
+}
+html {
+    height:100%;
+}
+header, nav, section, article, aside, footer {
+    display: block;
+}
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    background-color: #F1F2F4;
+    overflow-y:auto;
+    overflow-x: hidden;
+    color:#000;
+    font-size:18px;
+    height: 100%;
+}
+a {
+    color: #04a7a3;
+    text-decoration: none;
+}
+.section-main {
+    background-image:  -webkit-linear-gradient(#712095, #04a7a3 200%);   
+    background-image:  -moz-linear-gradient(45deg, rgb(52, 164, 177), rgb(60, 6, 78));
+    height: 550px;
+}
+.fll {
+    float: left;
+}
+.flr {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 23px;
+}
+.content-page {
+    position: relative;
+}
+.macbook-content {
+    margin-left: 120px;
+    background-image: url(/tpl/img/macbook.png);
+    width: 500px;
+    height: 460px;
+    position: relative;
+}
+.macbook-bg {
+    position: absolute;
+    top: 134px;
+    left: 69px;
+    background-image: url(/tpl/img/image_url.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 361px;
+    height: 226px;
+}
+.content-descr {
+    padding-top: 150px;
+    margin-left: 15px;
+    text-align: center;
+}
+.content-descr h3 {
+    font-size: 40px;
+}
+.content-descr h3,
+.content-descr h4 {
+    color: #fff;
+}
+.descr-beta-test {
+    color: #fff;
+    padding: 50px 0;
+    line-height: 150%;
+    max-width: 550px;
+    position: relative;
+    margin: 0 auto;
+}
+.block-link {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.block-link a {
+    color: #fff;
+    text-decoration: none;
+}
+.section-block {
+    position: relative;
+    min-height: 500px;
+    background-color: #fff;
+}
+.section-block-title {
+    padding: 60px;
+    font-size: 50px;
+    width: 45%;
+}
+.section-block-image {
+    padding: 40px;
+    width: 37%;
+}
+.section-block-descr {
+    -webkit-text-size-adjust: 100%;
+    width: 51%;
+}
+.section-block-descr-title {
+    padding: 40px 0px 20px;
+    font-size: 28px;
+}
+.section-block-descr-text {
+    line-height: 160%;
+}
+.section-pad {
+    padding-left: 40px;
+    width: 50%;
+}
+.iphone-content {
+    background-image: url(/tpl/img/phone.png);
+    background-size: 100% 100%;
+    height: 752px;
+    width: 369px;
+    position: relative;
+}
+.iphone-screenshot {
+    position: absolute;
+    top: 77px;
+    left: 27px;
+    width: 316px;
+    height: 566px;
+    background-size: 101%;
+}
+.screen-lenta {
+    background-image: url(/tpl/img/screen/lenta.png);
+}
+.screen-photo {
+    background-image: url(/tpl/img/screen/photo.png);
+}
+.screen-notify {
+    background-image: url(/tpl/img/screen/notify.png);
+}
+.screen-profile {
+    background-image: url(/tpl/img/screen/profile.png);
+}
+.pad {
+    padding-bottom: 40px;
+}
+.footer {
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(/tpl/img/back-about.png);
+    background-attachment: fixed;
+    color: #fff;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.f-sec {
+    padding: 40px;
+    text-align: center;
+    font-size: 38px;
+    background-color: #fff;
+}
+
+@media screen and (min-width:200px) and (max-width:1300px) {
+    .content-page {
+        float: none !important;
+        margin-left: -12px;
+    }
+    .macbook-content {
+        margin: 0  auto;
+        width: 280px;
+        height: 280px;
+        background-size: 100% 100%;
+    }
+    .macbook-bg {
+        top: 75px;
+        left: 39px;
+        width: 202px;
+        height: 127px;
+    }
+    .content-descr {
+        float: none !important;
+        margin:0 20px;
+        text-align: center;
+        padding-top: 110px;
+    }
+    .content-descr h3 {
+        font-size: 25px;
+    }
+    .descr-beta-test {
+        font-size: 14px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .block-link {
+        padding-top: 20px;
+        font-size: 16px;
+    }
+} 

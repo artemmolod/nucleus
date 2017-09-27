@@ -1,0 +1,10 @@
+AddDefaultCharset UTF-8
+AddCharset utf-8 .php .html .js
+Options All -Indexes
+
+ErrorDocument 404 /error/404.html
+
+RewriteEngine On
+
+#method
+RewriteRule ^method/(/?)+$ method.php [L]

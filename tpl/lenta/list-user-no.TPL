@@ -1,0 +1,1 @@
+<div style="padding-bottom:20px; text-align: center;">Фотографии пока загружены не были</div>

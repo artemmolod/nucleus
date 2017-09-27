@@ -1,0 +1,83 @@
+.a-main {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1010px;
+}
+.a-main-contaiiner {
+    margin-top: 20px;
+}
+.a-main-container-header {
+    padding: 15px 20px;
+    background-color: #fff;
+}
+.a-main-container-block {
+    padding-top: 15px;
+}
+.a-main-contaiiner-menu {
+    background-color: #fff;
+    width: 23.4%;
+    margin-right: 15px;
+}
+.a-main-contaiiner-a {
+    width: 75%;
+}
+.a-link-menu {
+    padding: 9px 15px;
+    display: block;
+}
+.a-link-menu:hover {
+    background-color: #F1F2F4;
+}
+.a-block-con {
+    background-color: #fff;
+}
+.a-block-con-header {
+    font-size: 20px;
+    padding: 15px 20px;
+}
+.a-block-con-main {
+    padding: 5px 20px;
+    line-height: 160%;
+}
+.a-block-label {
+    width: 35%;
+}
+.a-block-num-l {
+    width: 65%;
+}
+.a-pad {}
+.a-input {
+    width: 98%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;
+    outline: none;
+}
+.a-btn-block {
+    padding-top: 10px;
+    line-height: 190%;
+}
+.a-btn-main {
+    padding: 7px 14px 6px 14px;
+    border: 0;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+.a-margin15 {
+    margin-top: 15px;
+}
+.a-block-btn-rep {
+    text-align: right;
+}
+#text_notify {
+    width: 550px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    resize: none;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}

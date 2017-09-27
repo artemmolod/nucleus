@@ -1,0 +1,146 @@
+.reg-main {
+    position: relative;
+}
+.reg-container {
+    width: 700px;
+    background-color: #fff;
+    position: relative;
+    min-height: 400px;
+    margin: 50px auto;
+}
+.reg-header-tab {
+    font-size: 20px;
+    color: #555;
+    position: relative;
+    margin-top: 50px;
+    line-height: 150%;
+    padding: 15px 20px;
+}
+.reg-title-tab {
+    display: inline-block;
+}
+.reg-title-tab:nth-child(2),
+.reg-title-tab:nth-child(3) {
+    margin-left: 10px;
+}
+.reg-line-progress {
+    padding: 0;
+    background-color: #fff;
+    height: 6px;
+    display: inline-block;
+}
+.reg-line-progress-step-1 {
+    width: 135px;
+}
+.reg-line-progress-step-2 {
+    width: 200px;
+}
+.reg-line-progress-step-3 {
+    width: 355px;
+}
+.reg-line-p-s {
+    width: 100%;
+    height: 100%;
+}
+.reg-line-progress-st-1 {
+    background-color: #04a7a3;
+}
+.reg-line-progress-st-2 {
+    background-color: #DB3552;
+}
+.reg-line-progress-st-3 {
+    background-color: #039BE5;
+}
+
+.reg-container-form {}
+.reg-container-form-info-st-1-t-i {}
+.reg-form-info-s {
+    width: 35%;
+}
+.reg-form-info-f {
+    width: 50%;
+}
+.reg-info-t-f {
+    padding: 15px 20px;
+}
+.reg-info-t-f-o {
+    padding: 15px 20px;
+}
+.reg-form-bnt-s {
+    padding: 20px;
+}
+
+.reg-form-phoro-f {
+    padding: 15px 20px;
+}
+
+
+
+.reg-info {
+    position: relative;
+    margin-top: 20px;
+}
+.reg-u {
+    margin-top: 26px;
+}
+.reg-form div {
+    margin-bottom: 10px;
+}
+.reg-form div span {
+    display: inline-block;
+    width: 160px;
+    text-align: left;
+}
+.reg-input {
+    padding: 5px 7px;
+    outline: none;
+    font-size: 15px;
+}
+.reg-select {
+    padding: 5px 7px;
+    width: 160px;
+}
+.btn-pad-div {
+    padding: 10px;
+}
+.upload-btn-photo {
+    padding: 20px;
+    text-align: center;
+}
+#step3 {
+    padding: 50px 150px;
+    text-align: center;
+    line-height: 200%;
+}
+.progress {
+    display: none;
+    width: 200px;
+    height: 20px;
+    position: relative;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+.progress-line {
+    width: 20%;
+    height: 100%;
+    background-color: #04a7a3;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.fixed-email {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #b14344;
+    color: #fff;
+    padding: 15px;
+    display: none;
+}
+
+
