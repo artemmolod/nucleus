@@ -1,0 +1,87 @@
+#AddType text/cache-manifest .appcache
+#<IfModule mod_rewrite.c>
+#RewriteEngine On
+#RewriteBase /
+#RewriteCond %{REMOTE_ADDR} !=79.173.127.170
+#RewriteRule ^.* close.php [L] 
+#</IfModule>
+<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)$">
+  Header set Cache-Control "max-age=2592000"
+</FilesMatch>
+
+php_value date.timezone Europe/Moscow
+
+AddDefaultCharset UTF-8
+Options All -Indexes
+
+ErrorDocument 404 /error/404.html
+
+RewriteEngine On
+
+#RewriteRule ^/(/?)+$ index.php?act=lenta [L]
+
+RewriteRule ^about(/?)+$ about.php [L]
+RewriteRule ^about_the_competition(/?)+$ about_the_competition.php [L]
+RewriteRule ^terms(/?)+$ terms.php [L]
+RewriteRule ^developers(/?)+$ dev.php [L]
+
+RewriteRule ^competition(/?)+$ index.php?act=competition [L]
+
+RewriteRule ^registration_info(/?)+$ registration_info.php [L]
+
+#profile
+RewriteRule ^id([0-9]+)(/?)+$ index.php?act=profile&uid=$1 [L]
+
+#photo
+RewriteRule ^photo(/?)+$ index.php?act=photo [L]
+RewriteRule ^photo/([0-9]+)(/?)+$ index.php?act=photo&uid_photo=$1 [L]
+
+#lenta
+RewriteRule ^lenta(/?)+$ index.php?act=lenta [L]
+
+#reply
+RewriteRule ^reply(/?)+$ index.php?act=reply [L]
+
+#friends
+RewriteRule ^friends/([0-9]+)(/?)+$ index.php?act=friends&uid_=$1 [L]
+
+#settings
+RewriteRule ^settings(/?)+$ index.php?act=settings [L]
+
+#search
+RewriteRule ^search(/?)+$ index.php?act=search [L]
+RewriteRule ^search/([a-zA-Z0-9?.]+)(/?)+$ index.php?act=search&q=$1 [L]
+
+#subscription
+RewriteRule ^subscription(/?)+$ index.php?act=subscription [L]
+RewriteRule ^subscription/([0-9]+)(/?)+$ index.php?act=subscription&uid=$1 [L]
+
+RewriteRule ^accessErrorBlock(/?)+$ /error/block/block.php [L]
+RewriteRule ^accessErrorDeleted(/?)+$ /error/block/del.php [L]
+
+RewriteRule ^store(/?)+$ index.php?act=store [L]
+RewriteRule ^store/cancel(/?)+$ index.php?act=storeCancel [L]
+RewriteRule ^store/thank(/?)+$ index.php?act=storeThank [L]
+RewriteRule ^store/bonus(/?)+$ index.php?act=bonus [L]
+
+
+#about the competition
+RewriteRule ^about_the_competition(/?)+$ about_the_competition.php [L]
+
+#room
+RewriteRule ^room/category(/?)+$ index.php?act=roomCategory [L]
+RewriteRule ^room/start(/?)+$ index.php?act=roomStart_ [L]
+
+RewriteRule ^beta-test(/?)+$ betaTest.html [L]
+
+RewriteRule ^restore(/?)+$ restore.php [L]
+
+#admin
+RewriteRule ^admin/stats(/?)+$ admin/index.php?act=stats [L]
+RewriteRule ^admin/users(/?)+$ admin/index.php?act=users [L]
+RewriteRule ^admin/competition(/?)+$ admin/index.php?act=competition [L]
+RewriteRule ^admin/photo(/?)+$ admin/index.php?act=photo [L]
+RewriteRule ^admin/promocode(/?)+$ admin/index.php?act=promocode [L]
+RewriteRule ^admin/report(/?)+$ admin/index.php?act=report [L]
+RewriteRule ^admin/errors(/?)+$ admin/index.php?act=errors [L]
+
